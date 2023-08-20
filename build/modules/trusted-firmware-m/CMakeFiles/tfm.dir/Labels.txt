@@ -1,0 +1,13 @@
+# Target labels
+ tfm
+# Source files and their labels
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/CMakeFiles/tfm
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/CMakeFiles/tfm.rule
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/CMakeFiles/tfm-complete.rule
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build.rule
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-configure.rule
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-download.rule
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-install.rule
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-mkdir.rule
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-patch.rule
+/Users/kafechew/Nordic/play/lesson5/fund_less5_exer1_solution/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-update.rule
