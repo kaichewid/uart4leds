@@ -33,6 +33,7 @@ static const struct gpio_dt_spec led1 = GPIO_DT_SPEC_GET(DT_ALIAS(led1), gpios);
 static const struct gpio_dt_spec led0 = GPIO_DT_SPEC_GET(DT_ALIAS(led0), gpios);
 static const struct gpio_dt_spec led1 = GPIO_DT_SPEC_GET(DT_ALIAS(led1), gpios);
 static const struct gpio_dt_spec led2 = GPIO_DT_SPEC_GET(DT_ALIAS(led2), gpios);
+/* Added 4th LED 1-3 */
 static const struct gpio_dt_spec led3 = GPIO_DT_SPEC_GET(DT_ALIAS(led3), gpios);
 #endif
 
@@ -70,6 +71,7 @@ static void uart_cb(const struct device *dev, struct uart_event *evt, void *user
 			gpio_pin_toggle_dt(&led1);
 		else if (evt->data.rx.buf[evt->data.rx.offset] == '3')
 			gpio_pin_toggle_dt(&led2);	
+		/* Added 4th LED 2-3 */
 		else if (evt->data.rx.buf[evt->data.rx.offset] == '4')
 			gpio_pin_toggle_dt(&led3);				
 		}
@@ -121,6 +123,7 @@ ret = gpio_pin_configure_dt(&led0, GPIO_OUTPUT_ACTIVE);
 	if (ret < 0) {
 		return 1 ;
 	}
+	/* Added 4th LED 3-3 */
 	ret = gpio_pin_configure_dt(&led3, GPIO_OUTPUT_ACTIVE);
 	if (ret < 0) {
 		return 1 ;
